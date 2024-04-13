@@ -1,0 +1,9 @@
+I checked this app in 2023.12.15.
+Look the parser.py  in application folder.
+Then you will see how to send the query to parser the resume.
+In __init__ function, it makes head of prompt_question.
+The query_resume functioon calls pdf2string funcation and query_completion function.
+It makes the string from resume pdf in pdf2string function.
+Prompt variable is adding prompt_question and pdf2string function's return value.
+After query_resume function call query_completion function with prompt, engine,etc by params.
+ 
